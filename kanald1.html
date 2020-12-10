@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>KanalD</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <script src="https://kit.fontawesome.com/5502af8904.js" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="kanald1.js"></script>
+  <link rel="stylesheet" href="./kanald1.css">
+</head>
+<body>
+  <div class="app" style="width: 100%">
+    <div class="header">
+      <div class="center">
+        <div class="navigation">
+          <div class="hidden-xs">
+            <img src="images/footer/logod.png" alt="">
+            <a href="#">Diziler</a>
+            <a href="#">Programlar</a>
+            <a href="#">Yayın Akışı</a>
+            <a href="#">Canlı Yayın</a>
+            <div class="dropdown">
+                <button onclick="downmenu()" class="btndrop">Diğer</button>
+                <div id="myDropdown" class="dropdown-content">
+                  <a href="#">Başvurular</a>
+                  <a href="#">Yemek Tarifleri</a>
+                  <a href="#">Video</a>
+                  <a href="#">Foto Galeri</a>
+                  <a href="#">Haber</a>
+                  <a href="#">Radyo D</a>
+                  <a href="#">Engelsiz</a>
+                </div>
+              </div>
+          </div>
+          <div class="visible-xs">
+            <div class="dropdwn">
+              <button class="button-header" onclick="myFunction()"> <a href="javascript:void(0);" class="menuIkon"
+                  onclick="">
+                  <div></div>
+                  <div></div>
+                  <div></div>
+                </a> </i>
+              </button>
+            </div>
+            <div class="img"><img src="images/footer/logod.png" alt="">
+
+            </div>
+          </div>
+        </div>
+        <div class="hidden-xs">
+          <div class="search">
+            <input type="text" placeholder="Arama">
+            <i class="fas fa-search"></i>
+            <a href="#"> Giriş Yap <i class="fas fa-user"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="visible-xs">
+        <div id="myToggle" class="Toggle">
+          <li><a href="#">Diziler</a></li>
+          <li><a href="#">Programlar</a></li>
+          <li><a href="#">Yayın Akışı</a></li>
+          <li><a href="#">Canlı Yayın</a></li>
+          <li><a href="#">Diğer</a></li>
+          <li><a href="#">Giriş Yap</a></li>
+        </div>
+      </div>
+  </div>
+  <div class="main">
+    <!-- Swiper -->
+    <div class="main-slider">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><img src="images/5d7f6c574967832a74e7d704.jpg"></div>
+          <div class="swiper-slide"><img src="images/5d80d9fb267899397c5389df.jpg"></div>
+          <div class="swiper-slide"><img src="images/5d80eff7e94fb71ca0e26de9.jpg"></div>
+          <div class="swiper-slide"><img src="images/5d80fc4b61361f0bf816846b.jpg"></div>
+          <div class="swiper-slide"><img src="images/5d8248429850b93024b74338.jpg"></div>
+          <div class="swiper-slide"><img src="images/5d8387779850b919b0aacba2.jpg"></div>
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+
+    <div class="schedule">
+      <div class="container">
+        <div class="col-xs-2 hidden-xs">
+          <h4> Yayın Akışı</h4>
+        </div>
+        <div class="col-sm-8 col-xs-12">
+          <div class="row">
+            <a href="#" class="col-xs-4 item item-current">
+              <span>Gelinim Mutfakta</span>
+              <b>9.30</b>
+            </a>
+            <a href="#" class="col-xs-4 item">
+              <span>Yaralı Kuşlar</span>
+              <b>16.00</b>
+            </a>
+            <a href="#" class="col-xs-4 item">
+              <span>Arka Sokaklar</span>
+              <b>17.00</b>
+            </a>
+          </div>
+        </div>
+        <div class="col-xs-2 next hidden-xs">
+          <a href="#">
+            <h4>Tüm Akışı Görüntüle</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-fragments">
+      <div class="container">
+        <span>YENİ FRAGMANLAR</span>
+        <div class="items-slider">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img1.jpg">
+                  <caption>Azize</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img2.jpg">
+                  <caption>Arda'nın Mutfağı</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img3.jpg">
+                  <caption>Afilli Aşk</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img4.jpg">
+                  <caption>Ayhan</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img1.jpg">
+                  <caption>Hekimoğlu</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img2.jpg">
+                  <caption>Arka Sokaklar</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img4.jpg">
+                  <caption>Çok Güzel Hareketler Bunlar</caption>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="img-cont"><img src="images/yenifragmanlar/img2.jpg">
+                  <caption>Arda'nın Mutfağı</caption>
+                </div>
+              </div>
+            </div>
+            <div class="visible-lg">
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-episodes">
+      <div class="container">
+        <span>YENİ BÖLÜMLER</span>
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="img-design">
+              <img src="images/yenibölümler/1.jpg" >
+              <div class="con">
+                <p><b>Arka Sokaklar Son Bölüm</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="img-design">
+              <img src="images/yenibölümler/2.jpg" >
+              <div class="con">
+                <p><b>Afili Aşk Son Bölüm</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="img-design">
+              <img src="images/yenibölümler/4.jpg" >
+              <div class="con">
+                <p><b>Zalim İstanbul Son Bölüm</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="img-design">
+              <img src="images/yenibölümler/5.jpg" >
+              <div class="con">
+                <p><b>Yaralı Kuşlar Son Bölüm</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+           <div class="img-design">
+              <img src="images/yenibölümler/6.jpg" >
+              <div class="con">
+                <p><b>Çok Güzel Hareketler Bunlar 2 Son Bölüm</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="img-design">
+              <img src="images/yenibölümler/5d906ed504207c1b98d92898.jpg" >
+              <div class="con">
+                <p><b>Reklam</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="featured">
+      <div class="container">
+        <span>ÖNE ÇIKANLAR</span>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <a href="#"><img src="images/önecikanlar/önecikanlar1.jpg"></a>
+          </div>
+          <div class="col-12 col-md-6">
+            <div class="row">
+              <div class="col-12 col-md-6">
+                <a href="#"><img src="images/önecikanlar/önecikanlar2.jpg"></a>
+              </div>
+              <div class="col-12 col-md-6">
+                <h4>"Fatmagül" Fransız Soap Awards 2019'da "En İyi Uluslararası Dizi" Seçildi!</h4>
+                <h5>"Fatmagül'ün Suçu Ne? bu yıl 4.sü düzenlenen Soap Awards Soap'da</h5>
+              </div>
+              <div class="col-12 col-md-6">
+                <a href="#"><img src="images/önecikanlar/önecikanlar3.jpg"></a>
+              </div>
+              <div class="col-12 col-md-6">
+                <h4>Arka Sokaklar'a iki yeni konuk oyuncu!</h4>
+                <h5>Kanal D'nin yapımı Erler Film'in, yapımcılığı Türker İnanoğlu'nun</h5>
+              </div>
+              <div class="col-12 col-md-6">
+                <a href="#"><img src="images/önecikanlar/önecikanlar4.jpg"></a>
+              </div>
+              <div class="col-12 col-md-6">
+                <h4>Azize'nin teaserı yayınlandı</h4>
+                <h5>Kanal D'nin Buğra Gürsoy ve Hande Erçel'in başrollerini paylaştığı heyecanla</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="new-gallery">
+      <div class="container">
+        <span>EN YENİ GALERİLER</span>
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+            <img src="images/enyeniler/1.jpg">
+            <div class="con">
+              <p><b>Zalim İstanbul 14. Bölümden İlk Kareler</b></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+            <img src="images/enyeniler/2.jpg">
+            <div class="con">
+              <p><b>Gelinim Mutfakta'ya 73. Hafta Katılan Yarışmacılar</b></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4">
+              <div class="img-design">
+            <img src="images/enyeniler/3.jpg">
+            <div class="con">
+              <p><b>Afilli Aşk 16. Bölüm Fotoğrafları</b></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+            <img src="images/enyeniler/4.png">
+            <div class="con">
+              <p><b>Zalim İstanbul 13. Bölüm Fotoğrafları</b></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+            <img src="images/enyeniler/5.jpg">
+            <div class="con">
+              <p><b>Arka Sokaklar 525. Bölüm'den İlk Kareler</b></p>
+            </div>
+          </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+            <img src="images/enyeniler/6.jpg">
+            <div class="con">
+              <p><b>Çok Güzel Hareketler 2-22. Bölüm Fotoğrafları</b></p>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="most-view">
+      <div class="container">
+        <span>ÇOK İZLENENLER</span>
+        <div class="row">
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/1.jpg">
+              <div class="con">
+                <p><b>Özcan Deniz'in boşanma sebebi Aslı Enver çıktı! - ÖZEL HABER</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/2.jpg">
+              <div class="con">
+                <p><b>Zeliş, Kurye'nin gerçek yüzünü gördü!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/3.jpg">
+              <div class="con">
+                <p><b>Hakan'ın büyük pişmanlığı!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/4.jpg">
+              <div class="con">
+                <p><b>Mesut kapana sıkıştı!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <a href="#"><img src=""></a>
+            <div class="img-design">
+              <img src="images/cokizlenenler/5.jpg">
+              <div class="con">
+                <p><b>Yaz kızım, 200 top kumaş!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/6.jpg">
+              <div class="con">
+                <p><b>Azize'yi şok eden gerçek!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/7.jpg">
+              <div class="con">
+                <p><b>Oyunsa oyun, savaşsa savaş!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/8.jpg">
+              <div class="con">
+                <p><b>Sürpriz Baby Shower Melike'yi ağlattı!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/9.jpg">
+              <div class="con">
+                <p><b>Kış sonunda geliyor!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/10.jpg">
+              <div class="con">
+                <p><b>Ceren'in elindeki koz ne?</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/11.jpg">
+              <div class="con">
+                <p><b>Nedim'den sert çıkış!</b></p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-md-4">
+            <div class="img-design">
+              <img src="images/cokizlenenler/12.jpg">
+              <div class="con">
+                <p><b>Azize ve Barbaros, Alpanlara karşı!</b></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <div class="footer">
+      <div class="container">
+    
+        <div class="visible-lg">
+          <span>KANAL D | Türkiye'nin Kanalı </span>
+        </div>
+    
+        <div class="platform">
+          <div class="hidden-lg">
+            <img src="images/footer/platform-ios.jpg">
+            <img src="images/footer/platform-android.jpg">
+          </div>
+        </div>
+    
+        <div class="footer-mobile">
+          <div class="visible-xs">
+            <div class="row">
+              <span>Reklam</span>
+              <span>Künye</span>
+              <span>İzleyici Temsilcisi</span>
+              <span>Sales</span>
+              <span>Bilgi Toplumu Hizmetleri</span>
+              <div class="row2">
+                <span>Veri Politikası</span>
+                <span>Yardım</span>
+                <span>İletişim</span>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+        <div class="footer-mobile">
+          <div class="visible-sm">
+            <div class="row">
+              <span>Reklam</span>
+              <span>Künye</span>
+              <span>İzleyici Temsilcisi</span>
+              <span>Sales</span>
+              <span>Bilgi Toplumu Hizmetleri</span>
+              <span>Veri Politikası</span>
+              <span>Yardım</span>
+              <span>İletişim</span>
+            </div>
+          </div>
+        </div>
+    
+        <div class="row">
+          <div class=" visible-md visible-lg ">
+            <div class="col-2 col-md-2 footerfirsti">
+              <h5>Dizi İzle</h5>
+              <h5>Program</h5>
+              <h5>Kurumsal</h5>
+              <h5>Popüler</h5>
+            </div>
+            <div class="col-2 col-md-2">
+              <h5>Afilli Aşk </h5>
+              <h5>Arda ile Omuz Omuza</h5>
+              <h5>Reklam</h5>
+              <h5>Eski Diziler</h5>
+            </div>
+            <div class="col-2 col-md-2">
+              <h5>Arka Sokaklar</h5>
+              <h5>Arda'nın Mutfağı</h5>
+              <h5>Künye</h5>
+              <h5>Uydu Ayarları</h5>
+            </div>
+            <div class="col-2 col-md-2">
+              <h5>Azize</h5>
+              <h5>Magazin D Pazar</h5>
+              <h5>İzleyici Temsilcisi</h5>
+              <h5>Dizi Haberleri</h5>
+            </div>
+            <div class="col-2 col-md-2">
+              <h5>Çocuklar Duymasın</h5>
+              <h5>Benimle Söyle </h5>
+              <h5>Bilgi Toplum Hizmetleri</h5>
+              <h5>Canlı TV İzle</h5>
+            </div>
+            <div class="col-2 col-md-2">
+              <h5>Yaralı Kuşlar</h5>
+              <h5>Beşinci Tat</h5>
+              <h5>Yardım</h5>
+              <h5>Ana Haber</h5>
+            </div>
+          </div>
+        </div>
+    
+        <div class="mobil">
+          <div class="visible-xs">
+            <img src="images/footer/1.png">
+            <img src="images/footer/2.png">
+            <img src="images/footer/3.png">
+          </div>
+        </div>
+    
+        <div class="ipad">
+          <div class="visible-sm visible-md">
+            <img src="images/footer/1.png">
+            <img src="images/footer/2.png">
+            <img src="images/footer/3.png">
+            <img src="images/footer/4.png">
+            <img src="images/footer/6.png">
+            <img src="images/footer/7.png">
+            <img src="images/footer/5.png">
+          </div>
+        </div>
+    
+        <div class="web">
+          <div class="visible-lg">
+            <img src="images/footer/1.png">
+            <img src="images/footer/2.png">
+            <img src="images/footer/3.png">
+            <img src="images/footer/4.png">
+            <img src="images/footer/6.png">
+            <img src="images/footer/7.png">
+          </div>
+        </div>
+    
+        <div class="footer-copyright">
+          <div class="visible-xs">
+            Copyright © 2017 KANAL D. Her Hakkı Saklıdır.
+            <div>Bilgi Toplumu Hizmetleri MKK tarafından sağlanmaktadır. </div>
+          </div>
+        </div>
+    
+        <div class="footer-copyright">
+          <div class="visible-sm  visible-md visible-lg">
+            Copyright © 2017 KANAL D. Her Hakkı Saklıdır. Bilgi Toplumu Hizmetleri MKK tarafından sağlanmaktadır.
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
